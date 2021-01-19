@@ -1,5 +1,4 @@
 # basic-banking-application-using-firebase
 created by using android studio and firebase as backend,
 app performs basic actions like transaction and recordig history into firebasedatebase
-used signWithEmailAndpassword functions........................
-
+used signWithEmailAndpassword functions.
