@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shiva1234r.ebank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_bank"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_bank_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".historyActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".transferMoneyActivity"
+            android:screenOrientation="portrait"/> <!-- android:windowSoftInputMode="stateVisible|adjustPan"></activity> -->
+        <activity android:name=".userDetailsActivity"  android:screenOrientation="portrait" />
+        <activity android:name=".startingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginActivity"  android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity"  android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
